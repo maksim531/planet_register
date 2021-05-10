@@ -29,6 +29,9 @@ class PlanetRequest extends FormRequest
         ];
     }
 
+    /**
+     * @return array
+     */
     public function messages()
     {
         return [
